@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./booking.js" defer></script>
+</head>
+<body>
+<header>
+    <div class="logo"> <a href="index.html">Sweet Crumb Bakery</a> </div>
+    <nav>
+        <ul>
+            <li> <a href="index.html">Home</a> </li>
+            <li> <a href="#About">About</a> </li>
+            <li> <a href="#Contact">Contact</a> </li>
+        </ul>
+    </nav>
+   </header>
+   <main class="main">
+    <h1 class="title">Reserve Your Tasting Session</h1>
+    <p class="step">Step 1 of 3: Select an available date and time slot.</p>
+    <div class="main-container">
+        <div class="calender">
+            <div class="calendar-header">
+            <button id="prev-month">Previous</button>
+            <h2 id="month-year">2023-12-12</h2>
+            <button id="next-month">Next</button>
+            </div>
+        <div class="week-days">
+            <span>Mon</span>
+            <span>Tue</span>
+            <span>Wed</span>
+            <span>Thu</span>
+            <span>Fri</span>
+            <span>Sat</span>
+            <span>Sun</span>
+        </div>
+        <div id="calendar-days">
+
+        </div>
+        </div>
+        <div class="slot">
+            <h2>Available Time Slots</h2>
+            <p id="selected-date">Please select a date from calendar</p>
+        <div class="slots-container">
+
+        </div>
+        </div>
+    </div>
+    <button id="nxt-btn" disabled>Next Step</button>
+   </main>
+</body>
+</html>
